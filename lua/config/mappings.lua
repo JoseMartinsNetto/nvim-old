@@ -36,3 +36,27 @@ map("n", "<leader>x", function()
 		bd(0)
 	end
 end, "Delete buffer")
+
+map("n", "<leader>tf", function()
+	local cwd = vim.uv.cwd()
+
+	vim.cmd("ToggleTerm size=40 dir=" .. cwd .. " direction=float name=desktop")
+end, "Toggle terminal float")
+
+map("n", "<leader>tv", function()
+	local cwd = vim.uv.cwd()
+
+	vim.cmd("ToggleTerm size=80 dir=" .. cwd .. " direction=vertical name=desktop")
+end, "Toggle terminal float")
+
+map("n", "<leader>th", function()
+	local cwd = vim.uv.cwd()
+
+	vim.cmd("ToggleTerm size=10 dir=" .. cwd .. " direction=horizontal name=desktop")
+end, "Toggle terminal float")
+
+map("n", "<leader>tw", function()
+	local cwd = vim.uv.cwd()
+
+	vim.cmd("ToggleTerm size=40 dir=" .. cwd .. " direction=winbar name=desktop")
+end, "Toggle terminal float")
