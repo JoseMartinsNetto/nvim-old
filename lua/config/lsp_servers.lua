@@ -8,6 +8,7 @@ return {
 	cssls = {},
 	ts_ls = {},
 	prettierd = {},
+	java_language_server = {},
 	lua_ls = {
 		settings = {
 			Lua = {

@@ -1,6 +1,7 @@
 return {
 	{
 		"MunifTanjim/nougat.nvim",
+		enabled = false,
 		config = function()
 			local nougat = require("nougat")
 			local core = require("nougat.core")
@@ -37,6 +38,7 @@ return {
 			local color = require("nougat.color").get()
 
 			local mode = nut.mode({
+				hl = { bg = color.bg2, fg = color.fg2 },
 				prefix = " ",
 				suffix = " ",
 				sep_right = sep.right_chevron_solid(true),
@@ -45,7 +47,7 @@ return {
 			local stl = Bar("statusline")
 			stl:add_item(mode)
 			stl:add_item(nut.git.branch({
-				hl = { bg = color.magenta, fg = color.bg },
+				hl = { bg = color.fg, fg = color.bg },
 				prefix = "  ",
 				suffix = " ",
 				sep_right = sep.right_chevron_solid(true),

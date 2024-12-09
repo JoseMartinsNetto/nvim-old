@@ -19,9 +19,7 @@ vim.opt.rtp:prepend(lazypath)
 -- loading lazy.nvim so that mappings are correct.
 -- This is also a good place to setup other settings (vim.opt)
 
-require("config.mappings")
-require("config.options")
-require("config.auto_commands")
+require("config")
 
 -- Setup lazy.nvim
 require("lazy").setup({

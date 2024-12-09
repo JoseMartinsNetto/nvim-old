@@ -1,5 +1,6 @@
 return {
 	"akinsho/bufferline.nvim",
+	enabled = true,
 	event = "VeryLazy",
 	keys = {
 		{ "<leader>bo", "<Cmd>BufferLineCloseOthers<CR>", desc = "Delete Other Buffers" },

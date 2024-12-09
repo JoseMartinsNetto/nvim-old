@@ -22,6 +22,10 @@ map("n", "<leader>gg", "<cmd>LazyGit<CR>", "Open LazyGit")
 
 map("n", "<leader>e", "<cmd>Oil<CR>", "Open Oil Explorer")
 
+map("n", "<leader>oh", function()
+	require("oil").toggle_hidden()
+end, "Open Oil Explorer")
+
 map("n", "<leader>x", function()
 	local bd = require("mini.bufremove").delete
 	if vim.bo.modified then
