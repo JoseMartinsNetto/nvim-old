@@ -1,5 +1,16 @@
 return {
 	{
+		"shaunsingh/nord.nvim",
+		name = "nord",
+		enabled = true,
+		lazy = false,
+		priority = 1000,
+		opts = {},
+		config = function()
+			vim.cmd.colorscheme("nord")
+		end,
+	},
+	{
 		"HoNamDuong/hybrid.nvim",
 		name = "hybrid",
 		enabled = false,
@@ -24,7 +35,7 @@ return {
 	{
 		"AlexvZyl/nordic.nvim",
 		name = "nordic",
-		enabled = true,
+		enabled = false,
 		lazy = false,
 		priority = 1000,
 		opts = {},

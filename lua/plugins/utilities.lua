@@ -2,6 +2,7 @@ return {
 	"tpope/vim-sleuth",
 	"ThePrimeagen/vim-be-good",
 	"github/copilot.vim",
+	"christoomey/vim-tmux-navigator",
 	{
 		"tribela/vim-transparent",
 		enabled = false,

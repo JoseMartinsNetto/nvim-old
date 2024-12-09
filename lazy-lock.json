@@ -21,6 +21,7 @@
   "mini.nvim": { "branch": "main", "commit": "690a3b4c78c4956f7ecf770124b522d32084b872" },
   "neodev.nvim": { "branch": "main", "commit": "46aa467dca16cf3dfe27098042402066d2ae242d" },
   "neovim-session-manager": { "branch": "master", "commit": "ce43f2eb2a52492157d7742e5f684b9a42bb3e5c" },
+  "nord": { "branch": "master", "commit": "80c1e5321505aeb22b7a9f23eb82f1e193c12470" },
   "nordic": { "branch": "main", "commit": "1ee4044077059b34eacd18d93613495a602c131f" },
   "nougat.nvim": { "branch": "main", "commit": "1c1cde6e53d7d7c2242d125fe67552b00e235876" },
   "nvim-cmp": { "branch": "main", "commit": "ca4d3330d386e76967e53b85953c170658255ecb" },
@@ -39,5 +40,6 @@
   "toggleterm.nvim": { "branch": "main", "commit": "87b2d6a3cab8e2bd9a0255427074285f0365398d" },
   "vim-be-good": { "branch": "master", "commit": "0ae3de14eb8efc6effe7704b5e46495e91931cc5" },
   "vim-sleuth": { "branch": "master", "commit": "be69bff86754b1aa5adcbb527d7fcd1635a84080" },
+  "vim-tmux-navigator": { "branch": "master", "commit": "424b5caa154bff34dc258ee53cec5a8e36cf7ea8" },
   "vim-transparent": { "branch": "master", "commit": "7b34267878b985677e2a1209004439972dbcbf8d" }
 }
